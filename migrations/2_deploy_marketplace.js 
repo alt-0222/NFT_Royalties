@@ -1,0 +1,7 @@
+const RoyalMarketplace = artifacts.require("RoyalMarketplace");
+
+module.exports = async function (deployer) {
+      await deployer.deploy(RoyalMarketplace);
+      const instance = await RoyalMarketplace.deployed();
+      console.log(instance.address);
+};

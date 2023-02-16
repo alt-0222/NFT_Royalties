@@ -1,0 +1,29 @@
+{
+  "name": "royal_marketplace",
+  "version": "1.0.0",
+  "description": "Marketplace with royalty basis points ",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "EIP-2981",
+    "ERC2981",
+    "royalty",
+    "marketplace",
+    "openzepplin",
+    "Ethereum",
+    "Solidity"
+  ],
+  "author": "nerdpower",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@manifoldxyz/royalty-registry-solidity": "^1.0.9",
+    "@openzeppelin/contracts": "^4.8.0",
+    "@truffle/hdwallet-provider": "^1.7.0",
+    "truffle": "^5.6.5"
+  }
+}
